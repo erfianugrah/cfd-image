@@ -27,4 +27,4 @@ USER nonroot
 
 # command / entrypoint of container
 ENTRYPOINT ["cloudflared"]
-CMD ["tunnel --no-autoupdate run --token eyJhIjoiMjVmMjFmMTQxODI0NTQ2YWE3MmM3NDQ1MWExMWI0MTkiLCJ0IjoiOWNmMGM2MzUtNGI1Ny00YjQzLTgwNjYtN2E1MjU1ZGNjODVjIiwicyI6Ill6WTRNR1UxWm1JdE5EZGxZaTAwWVRKakxXSmhORFV0TlRneU1EUXpOV0l4TWprNSJ9"]
+CMD ["tunnel --no-autoupdate run --token ${TOKEN}"]
